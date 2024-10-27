@@ -118,7 +118,7 @@
           </div>
 
           <div class="container float-right">
-            <p class="lead h5"><small> &copy; Copyright 2022, <a href="http://www.linkedin.com/in/saurabhnema27" target="_blank">Saurabh Nema</a></small></p>
+            <p class="lead h5"><small> &copy; Copyright getFullYear(), <a href="http://www.linkedin.com/in/saurabhnema27" target="_blank">Saurabh Nema</a></small></p>
           </div>
     </div>
 </body>
@@ -127,5 +127,6 @@
      var element = document.body;
      element.classList.toggle("dark-mode");
   }
+  document.getElementById("year").innerHTML = new Date().getFullYear();
 </script>
 </html>
